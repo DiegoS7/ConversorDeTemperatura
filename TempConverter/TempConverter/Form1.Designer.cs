@@ -39,6 +39,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.label1.Location = new System.Drawing.Point(35, 76);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(210, 25);
@@ -49,7 +50,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(35, 196);
+            this.label2.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.label2.Location = new System.Drawing.Point(35, 150);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(185, 25);
             this.label2.TabIndex = 1;
@@ -58,6 +60,7 @@
             // 
             // txtcen
             // 
+            this.txtcen.ForeColor = System.Drawing.SystemColors.Highlight;
             this.txtcen.Location = new System.Drawing.Point(251, 81);
             this.txtcen.Name = "txtcen";
             this.txtcen.Size = new System.Drawing.Size(143, 20);
@@ -67,7 +70,8 @@
             // 
             // txtfar
             // 
-            this.txtfar.Location = new System.Drawing.Point(251, 201);
+            this.txtfar.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.txtfar.Location = new System.Drawing.Point(251, 155);
             this.txtfar.Name = "txtfar";
             this.txtfar.Size = new System.Drawing.Size(143, 20);
             this.txtfar.TabIndex = 3;
@@ -76,7 +80,8 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(236, 301);
+            this.button1.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.button1.Location = new System.Drawing.Point(251, 211);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(158, 80);
             this.button1.TabIndex = 4;
@@ -89,7 +94,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(440, 418);
+            this.ClientSize = new System.Drawing.Size(427, 311);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtfar);
             this.Controls.Add(this.txtcen);
